@@ -1,0 +1,11 @@
+.skylineContainer {
+  background-image: url('../public/SKYLINE.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 94vh;
+  margin: 0 40px;
+}
+.aboutContainer {
+  margin-left: 20px;
+}

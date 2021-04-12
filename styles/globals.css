@@ -12,5 +12,43 @@ a {
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+.porfolio-banner {
+  background-image: url('../public/portfolio-header.png');
+  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 94vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 24px;
+  width: 30px;
+  height: 96vh;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+.navbar-item {
+  list-style: none;
+  transform: rotate(90deg);
+  width: 100px;
+}
+.link-value {
+  color: #d99b39;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'linotte-regular';
+}
+.home-container {
+  background-image: url('../public/white\ gray.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200vh;
 }
