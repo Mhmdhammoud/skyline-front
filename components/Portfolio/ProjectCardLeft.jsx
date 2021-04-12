@@ -6,6 +6,7 @@ import { Typography } from '@material-ui/core';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import Divider from '@material-ui/core/Divider';
 import Image from 'next/image';
+import axios from 'axios';
 const useStyles = makeStyles((theme) => ({
   root: {
     height: theme.spacing(120),
@@ -42,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(20),
   },
 }));
+
 const ProjectCard = () => {
   const classes = useStyles();
 
@@ -75,12 +77,15 @@ const ProjectCard = () => {
           alignItems="center"
           className={classes.viewProject}
         >
-          <Link href="/3" style={{ textDecoration: 'none' }}>
+          <Link
+            href={`/projects/5f84713f593a3c4058ab845d`}
+            style={{ textDecoration: 'none' }}
+          >
             <Typography variant="h4" style={{ color: '#d99b39' }}>
               View Project
             </Typography>
           </Link>
-          <Link href="/3">
+          <Link href={`/projects/5f84713f593a3c4058ab845d`}>
             <NavigateNextIcon className={classes.viewButton} />
           </Link>
         </Grid>

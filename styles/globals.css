@@ -18,7 +18,7 @@ a {
 }
 
 .porfolio-banner {
-  background-image: url('../public/portfolio-banner.png');
+  background-image: url('../public/portfolio-header.png');
   background-repeat: no-repeat;
   object-fit: contain;
   height: 94vh;

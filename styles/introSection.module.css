@@ -1,0 +1,10 @@
+.buildingContainer {
+  background-image: url('../public/building.png');
+  background-size: cover;
+  height: 95.3vh;
+}
+.logoContainer {
+  background-image: url('../public/logo.png');
+  background-size: cover;
+  height: 95.3vh;
+}

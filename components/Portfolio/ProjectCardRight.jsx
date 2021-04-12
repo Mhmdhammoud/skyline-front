@@ -65,12 +65,15 @@ const ProjectCardRight = () => {
           alignItems="center"
           className={classes.viewProject}
         >
-          <Link href="/3" style={{ textDecoration: 'none' }}>
+          <Link
+            href={`/projects/5f84713f593a3c4058ab845d`}
+            style={{ textDecoration: 'none' }}
+          >
             <Typography variant="h4" style={{ color: '#d99b39' }}>
               View Project
             </Typography>
           </Link>
-          <Link href="/3">
+          <Link href={`/projects/5f84713f593a3c4058ab845d`}>
             <NavigateNextIcon className={classes.viewButton} />
           </Link>
         </Grid>
