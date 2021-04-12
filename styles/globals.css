@@ -46,3 +46,9 @@ a {
   font-size: 16px;
   font-family: 'linotte-regular';
 }
+.home-container {
+  background-image: url('../public/white\ gray.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200vh;
+}
